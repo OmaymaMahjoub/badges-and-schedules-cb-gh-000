@@ -15,7 +15,7 @@ def assign_rooms(array)
   arr2=Array.new
   number=1
   array.each do |name|
-    ch="Hello, #{name}! You'll be assign to room #{number}!"
+    ch="Hello, #{name}! You'll be assigned to room #{number}!"
     arr2.push(ch)
     number+=1
   end
@@ -28,6 +28,9 @@ def printer(array)
   number=0
   arr1.each do
     puts arr1[number]
+    number+=1
+  end
+  arr2.each do
     puts arr2[number]
     number+=1
   end
