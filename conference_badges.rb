@@ -34,5 +34,3 @@ def printer(array)
     number+=1
   end
 end
-
-printer(["omayma","jimin"])
