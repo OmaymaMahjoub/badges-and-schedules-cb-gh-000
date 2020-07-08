@@ -19,7 +19,16 @@ def assign_rooms(array)
     arr2.push(ch)
     number+=1
   end
+  return arr2
 end
 
-
-    
+def printer(array)
+  arr1=batch_badge_creator(array)
+  arr2=assign_rooms(array)
+  number=0
+  arr1.each do
+    puts arr1[number]
+    puts arr2[number]
+    number+=1
+  end
+end
