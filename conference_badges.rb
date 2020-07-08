@@ -15,8 +15,7 @@ def assign_rooms(array)
   arr2=Array.new
   number=1
   array.each do |name|
-    ch="Hello, #{name}! You'll be assigned to room "+number+"!"
-    arr2.push(ch)
+    arr2<<"Hello, #{name}! You'll be assigned to room #{number}!"
     number+=1
   end
   return arr2
