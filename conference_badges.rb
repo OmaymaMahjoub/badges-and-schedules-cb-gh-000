@@ -29,6 +29,7 @@ def printer(array)
     puts arr1[number]
     number+=1
   end
+  number=0
   arr2.each do
     puts arr2[number]
     number+=1
