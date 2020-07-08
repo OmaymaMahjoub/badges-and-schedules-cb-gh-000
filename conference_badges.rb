@@ -36,4 +36,4 @@ def printer(array)
   end
 end
 
-printer([omayma,jimin])
+printer(["omayma","jimin"])
